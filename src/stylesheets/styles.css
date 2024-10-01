@@ -6,7 +6,12 @@
 }
 
 :root {
-    --color-background: #797771;
+    --color-background: #edf0f7;
+    --color-primary: #2d3648;
+    --color-secondary: #4a5468;
+    --color-typo-white: #ffffff;
+    --color-typo-gray: #5a5a5a;
+    --color-buttom: #65bbe5;
 }
 
 /* parei aqui esperando o teixa chegar no ponto (la ele) da cor */
