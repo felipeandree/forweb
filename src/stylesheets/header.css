@@ -1,27 +1,35 @@
 header {
     width: 100%;
-    padding: 28px 8%;
+    /* padding: 28px 8%; */
+    font-size: 16px;
+}
+
+.logo-img {
+    width: 55.5px;
+    height: 70px;
+    margin-left: 50px;
 }
 
 #navbar {
     width: 100%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px;
 }
-
-/* Verificar com o teixa sobre o logo e colocar na navbar 
- #nav_logo {
-    Adicionar logo 
-    font-size: 24px
-    color: #
-    
-}  */
 
 #nav_list {
     display: flex;
     list-style: none;
     gap: 48px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+#nav_list li {
+    justify-content: flex-end;
 }
 
 .nav-item a {
